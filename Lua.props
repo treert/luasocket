@@ -8,13 +8,20 @@
     <LUAPLAT>$(Configuration)</LUAPLAT>
   </PropertyGroup>
   <PropertyGroup Label="UserMacros">
-    <LUAV>5.3</LUAV>
+    <LUAV>5.4</LUAV>
+    <LUAPREFIX>C:\MyExe</LUAPREFIX>
+    <LUALIB>C:\MyExe\lib</LUALIB>
+    <LUACDIR>C:\MyExe\lib</LUACDIR>
+    <LUALDIR>C:\MyExe\lib</LUALDIR>
+    <LUAINC>C:\MyExe\include</LUAINC>
+    <LUALIBNAME>lua.lib</LUALIBNAME>
+    <!-- <LUAV>5.3</LUAV>
     <LUAPREFIX>z:\data\build\vc14\</LUAPREFIX>
     <LUALIB>$(LUAPREFIX)\lib\lua\$(LUAV)\$(LUAPLAT)</LUALIB>
     <LUACDIR>$(LUAPREFIX)\bin\lua\$(LUAV)\$(LUAPLAT)</LUACDIR>
     <LUALDIR>$(LUAPREFIX)\bin\lua\$(LUAV)\$(LUAPLAT)\lua</LUALDIR>
     <LUAINC>$(LUAPREFIX)\include\lua\$(LUAV);$(LUAPREFIX)\include\lua$(LUAV)</LUAINC>
-    <LUALIBNAME>lua$(LUAV.Replace('.', '')).lib</LUALIBNAME>
+    <LUALIBNAME>lua$(LUAV.Replace('.', '')).lib</LUALIBNAME> -->
   </PropertyGroup>
   <PropertyGroup>
     <_PropertySheetDisplayName>Lua</_PropertySheetDisplayName>
